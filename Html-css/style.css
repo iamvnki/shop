@@ -1,0 +1,50 @@
+body{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 250px;
+}
+#div1{
+        /* text decoration command */
+        text-transform:uppercase;
+        text-align: justify;
+    
+        background-color: aquamarine;
+        color: black;
+        justify-content: center;
+        /* border-style: ridge;
+        border-width: 5px 8px;
+        border-radius: 10px;
+        border-color: blue; */
+    
+        /* border in single line command */
+        border-radius: 19px 2px;
+        border: 8px ridge green;
+        padding: 10px;
+        margin-left: 550px;
+        margin-right: 550px;
+        
+        
+    
+    
+}
+#img{
+    /* image set command */
+    background-image: url('Jayakumar_Photo.jpg');   
+    background-size:contain;
+    background-repeat:no-repeat;
+    color: aliceblue;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#div1:hover{
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-transform:lowercase ;
+}
+#img:hover{
+    border-radius: 19px 2px;
+    border-style: groove;
+    border-color: darkorange;
+}
